@@ -1,0 +1,31 @@
+#logo {
+    width: max(100px, 18vw);
+    background-color: #0A0A23;
+    aspect-ratio: 35 / 4;
+    padding: 0.4rem;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #1B1B32;
+    display: flex;
+}
+
+h1 {
+    color: #F1BE32;
+    font-size: min(5vw, 1.2em);
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    border-bottom: 4px solid #DFDFE2;
+}
